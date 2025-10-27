@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\EM010\\OneDrive\\Desktop\\R.G\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0679C280-4737-CECC-EA88-CFB6FCE5153C}|Assembly-CSharp.csproj|C:\\Users\\EM010\\OneDrive\\Desktop\\R.G\\assets\\scripts\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0679C280-4737-CECC-EA88-CFB6FCE5153C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0679C280-4737-CECC-EA88-CFB6FCE5153C}|Assembly-CSharp.csproj|c:\\users\\em010\\onedrive\\desktop\\r.g\\assets\\playernameinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0679C280-4737-CECC-EA88-CFB6FCE5153C}|Assembly-CSharp.csproj|solutionrelative:assets\\playernameinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0679C280-4737-CECC-EA88-CFB6FCE5153C}|Assembly-CSharp.csproj|C:\\Users\\EM010\\OneDrive\\Desktop\\R.G\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0679C280-4737-CECC-EA88-CFB6FCE5153C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0679C280-4737-CECC-EA88-CFB6FCE5153C}|Assembly-CSharp.csproj|C:\\Users\\EM010\\OneDrive\\Desktop\\R.G\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0679C280-4737-CECC-EA88-CFB6FCE5153C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0679C280-4737-CECC-EA88-CFB6FCE5153C}|Assembly-CSharp.csproj|C:\\Users\\EM010\\OneDrive\\Desktop\\R.G\\assets\\scripts\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0679C280-4737-CECC-EA88-CFB6FCE5153C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerNameInput.cs",
+              "DocumentMoniker": "C:\\Users\\EM010\\OneDrive\\Desktop\\R.G\\Assets\\PlayerNameInput.cs",
+              "RelativeDocumentMoniker": "Assets\\PlayerNameInput.cs",
+              "ToolTip": "C:\\Users\\EM010\\OneDrive\\Desktop\\R.G\\Assets\\PlayerNameInput.cs",
+              "RelativeToolTip": "Assets\\PlayerNameInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T20:02:57.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DatabaseManager.cs",
+              "DocumentMoniker": "C:\\Users\\EM010\\OneDrive\\Desktop\\R.G\\Assets\\scripts\\DatabaseManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\DatabaseManager.cs",
+              "ToolTip": "C:\\Users\\EM010\\OneDrive\\Desktop\\R.G\\Assets\\scripts\\DatabaseManager.cs*",
+              "RelativeToolTip": "Assets\\scripts\\DatabaseManager.cs*",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwCkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T19:52:18.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\EM010\\OneDrive\\Desktop\\R.G\\Assets\\scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\EM010\\OneDrive\\Desktop\\R.G\\Assets\\scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\GameManager.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAmwGAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T01:41:27.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Obstacle.cs",
+              "DocumentMoniker": "C:\\Users\\EM010\\OneDrive\\Desktop\\R.G\\Assets\\scripts\\Obstacle.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Obstacle.cs",
+              "ToolTip": "C:\\Users\\EM010\\OneDrive\\Desktop\\R.G\\Assets\\scripts\\Obstacle.cs",
+              "RelativeToolTip": "Assets\\scripts\\Obstacle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T01:33:31.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\EM010\\OneDrive\\Desktop\\R.G\\Assets\\scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\EM010\\OneDrive\\Desktop\\R.G\\Assets\\scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\scripts\\PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T01:21:18.851Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

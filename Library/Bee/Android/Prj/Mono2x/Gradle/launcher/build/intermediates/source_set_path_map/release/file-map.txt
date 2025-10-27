@@ -1,0 +1,9 @@
+com.DefaultCompany.R.G.launcher-pngs-0 C:\Users\Sindroma\R.G\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\pngs\release
+com.DefaultCompany.R.G.launcher-resValues-1 C:\Users\Sindroma\R.G\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\resValues\release
+com.DefaultCompany.R.G.launcher-rs-2 C:\Users\Sindroma\R.G\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\rs\release
+com.DefaultCompany.R.G.launcher-mergeReleaseResources-3 C:\Users\Sindroma\R.G\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.DefaultCompany.R.G.launcher-mergeReleaseResources-4 C:\Users\Sindroma\R.G\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.DefaultCompany.R.G.launcher-merged_res-5 C:\Users\Sindroma\R.G\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\merged_res\release
+com.DefaultCompany.R.G.launcher-main-6 C:\Users\Sindroma\R.G\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\res
+com.DefaultCompany.R.G.launcher-release-7 C:\Users\Sindroma\R.G\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\release\res
+com.DefaultCompany.R.G.launcher-packaged_res-8 C:\Users\Sindroma\R.G\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\packaged_res\release
