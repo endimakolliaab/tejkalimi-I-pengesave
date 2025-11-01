@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     Animator anim;
     public float jumpForce;
     private bool canJump;
-    private int jumpCount; // Track the number of jumps
+    private int jumpCount; 
 
     private void Awake()
     {
@@ -17,23 +17,23 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
-    // Start is called before the first frame update
+    
     void Start()
     {
-        jumpCount = 0;  // Start with no jumps available
+        jumpCount = 0;  
         anim.SetBool("isWalking", true);
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
-        // Only allow jumping if the player hasn't exceeded the max jump count (2)
+        
         if (Input.GetMouseButtonDown(0))
         {
-            if (jumpCount < 2) // Allow double jump
+            if (jumpCount < 2) 
             {
                 rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-                jumpCount++; // Increment jump count
+                jumpCount++; 
 
                 anim.SetBool("isWalking", false);
             }
@@ -44,9 +44,9 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
-            // Reset jump count when player touches the ground
+            
             canJump = true;
-            jumpCount = 0; // Allow jumping again on the ground
+            jumpCount = 0; 
 
             anim.SetBool("isWalking", true);
         }
@@ -64,7 +64,7 @@ public class PlayerController : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Obstacle"))
         {
-            FindObjectOfType<GameManager>().GameOver(); // Restart the game if collided with obstacle
+            FindObjectOfType<GameManager>().GameOver(); 
         }
     }
 
