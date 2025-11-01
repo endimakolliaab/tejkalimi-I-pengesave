@@ -5,10 +5,10 @@ using TMPro;
 public class GameManager : MonoBehaviour
 {
     public GameObject obstacle;
-    public Transform[] spawnPoints;  // Array of spawn points
+    public Transform[] spawnPoints;  
     int score = 0;
 
-    public string playerName = "Player";  // You can link this to an input field later
+    public string playerName = "Player";  
 
     public TextMeshProUGUI scoreText;
     public GameObject PlayButton;
@@ -16,21 +16,21 @@ public class GameManager : MonoBehaviour
 
     private bool gameActive = false;
 
-    // Start is called before the first frame update
+    
     void Start()
     {
 
-        //playerName = PlayerPrefs.GetString("PlayerName", "Player");
-        // Ensure the player is inactive at the start
+        
+       
         Player.SetActive(false);
         PlayButton.SetActive(true);
 
     }
 
-    // Update is called once per frame
+   
     void Update()
     {
-        // If the game is not active, stop spawning obstacles
+        
         if (!gameActive)
         {
             StopCoroutine("SpawnObstacles");
@@ -44,10 +44,10 @@ public class GameManager : MonoBehaviour
             float waitTime = Random.Range(0.5f, 3f);
             yield return new WaitForSeconds(waitTime);
 
-            // Randomly pick a spawn point from the array of spawn points
+            
             Transform spawnPoint = spawnPoints[Random.Range(0, spawnPoints.Length)];
 
-            // Instantiate the obstacle at the selected spawn point
+            
             Instantiate(obstacle, spawnPoint.position, Quaternion.identity);
         }
     }
@@ -58,7 +58,7 @@ public class GameManager : MonoBehaviour
         scoreText.text = score.ToString();
     }
 
-    // This function will be called to start the game
+    
     public void GameStart()
     {
         score = 0;
@@ -70,20 +70,18 @@ public class GameManager : MonoBehaviour
         Player.SetActive(true);
         PlayButton.SetActive(false);
 
-        StartCoroutine("SpawnObstacles"); // Start spawning obstacles after clicking Play button
-        InvokeRepeating("ScoreUp", 2f, 1f); // Start scoring when the game starts
+        StartCoroutine("SpawnObstacles"); 
+        InvokeRepeating("ScoreUp", 2f, 1f); 
     }
 
-    // This function will be called when the player collides with an obstacle
+    
     public void GameOver()
     {
         
         gameActive = false;
         CancelInvoke("ScoreUp");
 
-        Debug.Log("GameOver() called");
-
-        // Deactivate player movement and show UI
+       
         Player.SetActive(false);
         PlayButton.SetActive(true);
 
@@ -91,12 +89,12 @@ public class GameManager : MonoBehaviour
 
     }
 
-    // Handle collision with obstacles (you must add a Collider to both the player and obstacles)
+    
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Obstacle")) // Ensure the obstacle has the "Obstacle" tag
+        if (collision.gameObject.CompareTag("Obstacle")) 
         {
-            GameOver();  // Call GameOver when the player collides with an obstacle
+            GameOver();  
         }
     }
 
